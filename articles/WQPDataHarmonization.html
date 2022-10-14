@@ -461,7 +461,12 @@
 <p>See additional function documentation for additional function options by entering the following code in the console: ?DepthProfileData</p>
 <div class="sourceCode" id="cb9"><pre class="downlit sourceCode r">
 <code class="sourceCode R"><span><span class="co">#converts all depth profile data to meters</span></span>
-<span><span class="va">TADAProfileClean1</span> <span class="op">&lt;-</span> <span class="fu"><a href="../reference/DepthProfileData.html">DepthProfileData</a></span><span class="op">(</span><span class="va">TADAProfile</span>, unit <span class="op">=</span> <span class="st">"m"</span>, transform <span class="op">=</span> <span class="cn">TRUE</span><span class="op">)</span></span></code></pre></div>
+<span><span class="va">TADAProfileClean1</span> <span class="op">&lt;-</span> <span class="fu"><a href="../reference/DepthProfileData.html">DepthProfileData</a></span><span class="op">(</span><span class="va">TADAProfile</span>, unit <span class="op">=</span> <span class="st">"m"</span>, transform <span class="op">=</span> <span class="cn">TRUE</span><span class="op">)</span></span>
+<span><span class="co">#&gt; Warning in `[&lt;-.data.frame`(`*tmp*`, targetUnit, value = structure(list(:</span></span>
+<span><span class="co">#&gt; provided 2 variables to replace 1 variables</span></span>
+<span></span>
+<span><span class="co">#&gt; Warning in `[&lt;-.data.frame`(`*tmp*`, targetUnit, value = structure(list(:</span></span>
+<span><span class="co">#&gt; provided 2 variables to replace 1 variables</span></span></code></pre></div>
 </div>
 <div class="section level2">
 <h2 id="result-unit-conversions">Result unit conversions<a class="anchor" aria-label="anchor" href="#result-unit-conversions"></a>
